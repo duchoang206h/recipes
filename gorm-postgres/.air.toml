@@ -1,0 +1,7 @@
+# air.toml
+root = "."
+tmp_dir = ".tmp"
+build = "go build -o ./tmp/main ."
+cmd = "./.tmp/main"
+exclude_dir = "^\\.git|tmp$"
+include_ext = "\\.go$"
